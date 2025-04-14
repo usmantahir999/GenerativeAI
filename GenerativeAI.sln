@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLSampleApp.Console", "MLSampleApp.Console\MLSampleApp.Console.csproj", "{7BB03098-CE37-406C-8E40-57F52ECAFCAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictiveModel_WebApi", "PredictiveModel_WebApi\PredictiveModel_WebApi.csproj", "{48FC0E2A-D0B7-A417-6185-78C87D2E931C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7BB03098-CE37-406C-8E40-57F52ECAFCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BB03098-CE37-406C-8E40-57F52ECAFCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BB03098-CE37-406C-8E40-57F52ECAFCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FC0E2A-D0B7-A417-6185-78C87D2E931C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FC0E2A-D0B7-A417-6185-78C87D2E931C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FC0E2A-D0B7-A417-6185-78C87D2E931C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FC0E2A-D0B7-A417-6185-78C87D2E931C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
